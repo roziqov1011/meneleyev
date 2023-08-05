@@ -56,3 +56,21 @@ button {
 .loading {
     background-color: #020102;
 }
+
+
+// warning
+.site__warning{
+    display: none;
+}
+
+@media (min-width: 100px) and (max-width: 1200px) {
+    .site__wrap{
+        display: none;
+    }    
+    .site__warning{
+        display: block;
+        margin: 0 auto;
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+}

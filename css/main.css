@@ -1,62 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: "Commissioner", sans-serif;
-  font-family: "Sue Ellen Francisco", cursive;
-  font-family: "Work Sans", sans-serif;
-}
-
-ul,
-ol {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  max-width: 1870px !important;
-  margin: 0 auto;
-}
-
-button {
-  display: block;
-}
-
-/* for seo */
-.visually_hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0);
-}
-
-.loading img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100vh;
-}
-
-.loading {
-  background-color: #020102;
-}
-
 .table__container {
   width: 90vw;
   margin: 0 auto;
@@ -1017,4 +959,78 @@ button {
 
 .modda_wrapper .card_modda:hover .imgBx {
   margin-top: -60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Commissioner", sans-serif;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-family: "Work Sans", sans-serif;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1870px !important;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+}
+
+/* for seo */
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0);
+}
+
+.loading img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.loading {
+  background-color: #020102;
+}
+
+.site__warning {
+  display: none;
+}
+
+@media (min-width: 100px) and (max-width: 1200px) {
+  .site__wrap {
+    display: none;
+  }
+  .site__warning {
+    display: block;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */
