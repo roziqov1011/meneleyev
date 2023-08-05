@@ -1029,8 +1029,11 @@ button {
   }
   .site__warning {
     display: block;
-    margin: 0 auto;
-    margin-top: 250px;
     margin-left: 10px;
+    width: 80%;
+  }
+  .site__warning .text__warning {
+    margin: 0 auto;
+    margin-top: 220px;
   }
 }/*# sourceMappingURL=main.css.map */

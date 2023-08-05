@@ -67,10 +67,14 @@ button {
     .site__wrap{
         display: none;
     }    
-    .site__warning{
+    .site__warning {
         display: block;
-        margin: 0 auto;
-        margin-top: 250px;
         margin-left: 10px;
-    }
+        width: 80%;
+        
+        .text__warning {
+            margin: 0 auto;
+            margin-top: 220px;
+        }
+      }
 }
